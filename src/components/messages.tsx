@@ -20,6 +20,7 @@ export function Messages() {
       {data.messages.map((message) => {
         return (
           <Message
+            messageId={message.id}
             key={message.id}
             text={message.text}
             amountOfReactions={message.amountOfReactions}
