@@ -28,7 +28,6 @@ export async function getRoomMessages({
 
   return {
     messages: data.map((item) => {
-      console.log(item);
       return {
         id: item.ID,
         text: item.Message,
