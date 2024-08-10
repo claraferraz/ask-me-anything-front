@@ -38,3 +38,6 @@ lucide icons:
 npm i lucide-react -f
 
 em caso de erro de importação no código, basta reiniciar o vscode
+
+react-query:
+npm i @tanstack/react-query -f
